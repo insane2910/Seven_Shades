@@ -1,0 +1,14 @@
+maincategory
+------------
+ maincategoryid int pk
+ maincategoryname varchar(45)
+ icon text
+ 
+category
+------------
+ maincategoryid int fk
+ categoryid int pk
+ categoryname text
+ picture text
+ 
+ 
